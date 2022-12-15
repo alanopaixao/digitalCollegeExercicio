@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  color: #222;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+input {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 5px 0 15px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=740&t=st=1671111299~exp=1671111899~hmac=39fedc9b30adb0e95320ede4cccff3c230dc890c4cee0ec1ef647c55ad21ab1b");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 400px;
+  /* height: 300px; */
+  background: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #eee;
+}
+
+.btn {
+  border: 1px solid gold;
+  font-weight: 900;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: gold;
+  color: rgb(97, 82, 0);
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background-color: orange;
+  color: #fff;
+}
